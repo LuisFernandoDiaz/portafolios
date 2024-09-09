@@ -57,12 +57,14 @@ body {
 
 .navbar a:nth-child(1) {
     color: #00abf0;
+    font-weight: 700;
 }
 
 
 .navbar a:hover,
 .navbar a.active {
     color: #00abf0;
+    font-weight: 700;
 }
 
 .home {
@@ -70,13 +72,13 @@ body {
     background: url('../img/luis.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    padding: 0 10%;
+    padding-top: 10%;
+    padding-left: 5%;
 }
 
 .home-contenido {
     max-width: 600px;
+
 }
 
 .home-contenido h1 {

@@ -7,79 +7,29 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-body {
-
-    background: url('../img/luis.jpeg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #ededed;
-}
-
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-
-.logo {
-    position: relative;
-    font-size: 25px;
-    color: #ededed;
-    text-decoration: none;
-    font-weight: 600;
-    text-shadow: 3px 3px 0px #00abf0, 5px 5px 0px #081b29;
-}
-
-.logo::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: 50%;
-}
-
-.navbar a {
-    font-size: 18px;
-    color: #ededed;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: .3s;
-}
-
-.navbar a:nth-child(1) {
+/* aqui se agrega*/
+.navbar a:nth-child(3) {
     color: #00abf0;
+    font-weight: 700;
 }
 
-
-.navbar a:hover,
-.navbar a.active {
-    color: #00abf0;
-}
 
 .carrusel {
     margin-top: 8vh;
     display: flex;
     align-items: center;
     padding: 5% 10%;
+
 }
 
 img {
-    width: 50%;
-    height: 50%;
+
+    width: 50vh;
+    height: 30vh;
     border-radius: 5px;
+    border: 3px solid hsl(221, 81%, 14%, 30%);
+}
+
+img:hover {
+    border: 3px solid hsl(223, 17%, 92%, 20%);
 }
