@@ -7,11 +7,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 /* aqui se agrega*/
+
+.navbar a {
+    font-size: 155%;
+}
+
 .navbar a:nth-child(3) {
     color: #00abf0;
-    font-weight: 700;
+    font-weight: 800;
 }
+
 
 
 .carrusel {

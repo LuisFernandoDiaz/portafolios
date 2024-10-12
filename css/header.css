@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -34,7 +35,7 @@ body {
 
 .logo {
     position: relative;
-    font-size: 25px;
+    font-size: 35px;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
@@ -53,7 +54,6 @@ body {
 }
 
 .navbar a {
-    font-size: 18px;
     color: #ededed;
     text-decoration: none;
     font-weight: 500;

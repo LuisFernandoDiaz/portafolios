@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
 }
 
 body {
@@ -28,7 +29,7 @@ body {
 
 .logo {
     position: relative;
-    font-size: 25px;
+    font-size: 35px;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
@@ -47,7 +48,7 @@ body {
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 155%;
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
@@ -82,19 +83,19 @@ body {
 }
 
 .home-contenido h1 {
-    font-size: 56px;
+    font-size: 66px;
     font-weight: 700;
     line-height: 1.2;
 }
 
 .home-contenido h3 {
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 700;
     color: #00abf0;
 }
 
 .home-contenido p {
-    font-size: 16px;
+    font-size: 22px;
     margin: 20px 0 40px;
 }
 
@@ -130,16 +131,16 @@ body {
 }
 
 .btn-box a:nth-child(2) {
-    background: transparent;
-    color: #00abf0;
-}
-
-.btn-box a:nth-child(2):hover {
+    background: #00abf0;
     color: #081b29;
 }
 
+.btn-box a:nth-child(2):hover {
+    color: #00abf0;
+}
+
 .btn-box a:nth-child(2)::before {
-    background: #00abf0;
+    background: #081b29;
 }
 
 .btn-box a::before {
