@@ -186,6 +186,21 @@
     }
 }
 
+.skills .skill .ADS {
+    width: 0%;
+    animation: 2s sqlmongo forwards;
+}
+
+@keyframes ADS {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 83%;
+    }
+}
+
 .skills .skill .comunicacion {
     width: 0%;
     animation: 2s comunicacion forwards;
@@ -269,6 +284,22 @@
 }
 
 @keyframes iniciativa {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+
+.skills .skill .Actitud {
+    width: 0%;
+    animation: 2s iniciativa forwards;
+}
+
+@keyframes Actitud {
     0% {
         width: 0%;
     }

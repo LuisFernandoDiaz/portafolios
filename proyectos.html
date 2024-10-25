@@ -13,8 +13,47 @@
     <header class="header" id="encabezado">
     </header>
 
-    <section class="carrusel">
+    <section class="contenido">
+        <hr>
+        <h1 class="ads">Proyecto Analisis y Diseño de Sistema</h1>
+        <br>
         <div class="container">
+            <div id="caso">Registrar Pedido Crédito
+                <br> <br>
+                <dialog id="oculto">
+                    <h1>Flujo de Eventos</h1>
+                    <pre>
+                        1. El caso de uso se inicia cuando la secretaria selecciona la opción 
+                        “Solicitar Pedido al crédito” del Menú Principal.
+                        2. El sistema muestra la interfaz “Registrar Pedido” con los siguientes campos:
+                        Numero de Pedido, Fecha, Nombre de Cliente y la opción Buscar cliente.
+                        Nombre del Producto, la Opción Buscar producto, el campo cantidad y la Opción
+                        Agregar Producto.
+                        Una cuadrícula de detalle del pedido, que se cargará, con los productos, 
+                        la cuadricula contiene los siguientes campos (código, nombre, precio y cantidad). 
+                        Se muestra, adicionalmente una lista precargada de los vendedores y la opción “Grabar Pedido”.
+                        3.  La secretaria selecciona “Buscar Cliente”.
+                        4.  El sistema incluye el Caso de Uso Buscar Cliente.
+                        5.  El sistema muestra los datos del cliente.
+                        6.  La secretaria solicita “Buscar producto” disponible.
+                        7.  El sistema incluye el Caso de Uso Buscar producto.
+                        8.  El sistema muestra los nombres y el precio del producto.
+                        9.  La secretaria ingresa la cantidad del producto.
+                        10. La secretaria selecciona agregar producto
+                        11. El sistema agrega el producto a la cuadrícula del detalle del pedido.
+                        12. Si la secretaria quiere seleccionar otro producto, se repite los pasos desde el 6 al 11.
+                        13. La secretaria selecciona vendedor que atendió al cliente.
+                        14. La secretaria selecciona “Grabar pedido”.
+                        15. El Sistema valida datos.
+                        16. El sistema obtiene el último número de pedido y autogenera un nuevo número.
+                        17. El sistema graba el pedido con su detalle en estado “Pendiente” y muestra el número del pedido.
+                        </pre>
+                    <br>
+                    <button id="hide">cerrar</button>
+                </dialog>
+                <button id="show">Flujo de eventos</button>
+
+            </div>
             <img src="img/CUads.jpg">
             <img src="img/imgads1.jpg">
             <img src="img/imgads2.jpg">
