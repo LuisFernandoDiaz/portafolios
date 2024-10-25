@@ -22,22 +22,26 @@
 
 
 
-.carrusel {
-    margin-top: 8vh;
+.container {
+    margin: 150px 0 0 200px;
+    width: 70%;
+    height: 450px;
     display: flex;
-    align-items: center;
-    padding: 5% 10%;
-
+    justify-content: center;
+    gap: 10px;
 }
 
-img {
-
-    width: 50vh;
-    height: 30vh;
-    border-radius: 5px;
-    border: 3px solid hsl(221, 81%, 14%, 30%);
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #00abf0;
+    transition: all ease-in-out 0.5s;
 }
 
-img:hover {
-    border: 3px solid hsl(223, 17%, 92%, 20%);
+.container img:hover {
+    width: 65%;
+    border: 3px solid #013950;
+
 }
