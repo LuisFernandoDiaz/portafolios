@@ -15,11 +15,23 @@ header.innerHTML =
             <a href="./index.html"  class="activo">Hogar</a>
             <a href="skills.html" >Skills</a>
             <a href="proyectos.html" >Proyectos</a>
-            <a href="#" >Portafolios</a>
             <a href="#" >Contacto</a>
         </nav>
 `;
 
+const footer = document.querySelector("footer");
+
+footer.innerHTML =
+    `
+            <div class="home-sci">
+                <a href="https://www.facebook.com/osito.jacky.7" onclick="audio2.play();" target="_blank"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in/luis-fernando-diaz-colunga-0a312a248/" onclick="audio2.play();"
+                    target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/LuisFernandoDiaz" onclick="audio2.play();" target="_blank"><i
+                        class='bx bxl-github'></i></a>
+            </div>
+`;
 
 
 //aqui ira una funcion de sonido mas nada

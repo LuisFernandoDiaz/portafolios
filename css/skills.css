@@ -188,7 +188,7 @@
 
 .skills .skill .ADS {
     width: 0%;
-    animation: 2s sqlmongo forwards;
+    animation: 2s ADS forwards;
 }
 
 @keyframes ADS {
@@ -296,7 +296,7 @@
 
 .skills .skill .Actitud {
     width: 0%;
-    animation: 2s iniciativa forwards;
+    animation: 2s Actitud forwards;
 }
 
 @keyframes Actitud {
@@ -305,6 +305,6 @@
     }
 
     100% {
-        width: 95%;
+        width: 93%;
     }
 }
